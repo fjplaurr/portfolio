@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 //Mongoose connection
-mongoose.connect(process.env.MONGODB_URI || uri, { useNewUrlParser: true }); //Heroku Step 2 -> process.env.MONGODB_URI
+mongoose.connect(uri, { useNewUrlParser: true }); //Heroku Step 2 -> process.env.MONGODB_URI
 const connection = mongoose.connection;
 connection.on('error', console.error.bind(console, 'connection error:'));
 connection.once('open', () => {
