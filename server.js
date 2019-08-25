@@ -6,12 +6,9 @@ const path = require('path');
 
 //Consts
 const app = express();
-const port = process.env.PORT || 4000; //Heroku Step 1 -> process.env.PORT
+const port = process.env.PORT || 5000; //Heroku Step 1 -> process.env.PORT
 const uri = process.env.ATLAS_URI;
 
-//Middlewares
-app.use(cors());
-app.use(express.json());
 
 //Mongoose connection
 mongoose.connect(uri, { useNewUrlParser: true }); //Heroku Step 2 -> process.env.MONGODB_URI
@@ -20,6 +17,10 @@ connection.on('error', console.error.bind(console, 'connection error:'));
 connection.once('open', () => {
     console.log('MongoDB connection established successfully');
 })
+
+//Middlewares
+app.use(cors());
+app.use(express.json());
 
 //Routers
 const messagesRouter = require('./routes/messages');

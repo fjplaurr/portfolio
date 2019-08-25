@@ -12,9 +12,7 @@ router.route('/add').post((req, res) => {
     ).catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/').get((req, res) => {
-    res.send('Get received.')
-});
+
 
 
 module.exports = router;
