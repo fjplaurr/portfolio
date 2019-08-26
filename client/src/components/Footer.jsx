@@ -24,11 +24,7 @@ export default class Footer extends React.Component {
             textMessage: this.state.message
         }
         console.log(message);
-        if (process.env.NODE_ENV === 'production') {
-            axios.post('https://fjplaurr-portfolio.herokuapp.com/add', message).then(res => console.log(res.data));
-        } else {
-            axios.post('http://localhost:5000/add', message).then(res => console.log(res.data));
-        }
+        axios.post('/add', message).then(res => console.log(res.data));
     }
 
     onChangeName(e) {
