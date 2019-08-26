@@ -4,14 +4,11 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const path = require('path');
 
-//Consts
-const app = express();
 const port = process.env.PORT || 5000; //Heroku Step 1 -> process.env.PORT
-const uri = process.env.ATLAS_URI;
-
+const uriAtlas = process.env.ATLAS_URI; //If it is not defined in an .env, it will take it from enviorment
 
 //Mongoose connection
-mongoose.connect(uri, { useNewUrlParser: true }); //Heroku Step 2 -> process.env.MONGODB_URI
+mongoose.connect(uriAtlas, { useNewUrlParser: true }); //Heroku Step 2 -> connect to MongoDB
 const connection = mongoose.connection;
 connection.on('error', console.error.bind(console, 'connection error:'));
 connection.once('open', () => {
@@ -19,6 +16,7 @@ connection.once('open', () => {
 })
 
 //Middlewares
+const app = express();
 app.use(cors());
 app.use(express.json());
 
