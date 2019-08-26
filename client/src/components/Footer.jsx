@@ -48,7 +48,7 @@ export default class Footer extends React.Component {
     render() {
         return (
             <section id="footer">
-                <h2 className="major">Get in touch</h2>
+                <h2 className="major">Get in contact</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <form method="post" action="#" onSubmit={this.onSubmit}>
                     <div className="fields">

@@ -9,9 +9,6 @@
     "react-scripts": "0.9.5",
     "@fortawesome/fontawesome-free": "^5.10.1"
   },
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
