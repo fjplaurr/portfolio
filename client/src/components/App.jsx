@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
-//import Banner from './Banner';
-//import Wrapper from './Wrapper';
+import './Wrapper.css';
+import './Footer.css';
+import './App.css'
+import Banner from './Banner';
+import Wrapper from './Wrapper';
 import Footer from './Footer';
 //import Nav from './Nav';
 
@@ -16,11 +18,9 @@ class App extends Component {
           </div>
           */}
         {/*   <div mainWrapper> */}
-        {/*<Banner></Banner>
-        <Wrapper></Wrapper>*/}
+        <Banner></Banner>
+        <Wrapper></Wrapper>
         <Footer></Footer>
-        {/*     </div>  */}
-        {/*   </div> */}
       </div>
     );
   }

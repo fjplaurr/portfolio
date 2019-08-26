@@ -5,9 +5,9 @@ export default function banner () {
     return (
         <section id="banner">
             <div className="inner">
-                <div className="logo"><span className="icon fa-gem"></span></div>
-                <h2>This is Solidssssss State</h2>
-                <p>Another free + fully responsive site template by <a href=""></a></p>
+                <div className="logo"><span className="fas fa-rocket"></span></div>
+                <h2>Hi, I am Fran</h2>
+                <p>an enthusiastic web developer <a href=""></a></p>
             </div>
         </section>
     )
