@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Wrapper.css';
+import './ProjectsContainer.css';
 import './Footer.css';
 import './App.css'
 import Banner from './Banner';
-import Wrapper from './Wrapper';
+import ProjectsContainer from './ProjectsContainer';
 import Footer from './Footer';
 //import Nav from './Nav';
 
@@ -12,14 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-         {/*<div id="page-wrapper">
-          <div className='navWrapper'>
-            <Nav></Nav>
-          </div>
-          */}
-        {/*   <div mainWrapper> */}
         <Banner></Banner>
-        <Wrapper></Wrapper>
+        <ProjectsContainer></ProjectsContainer>
         <Footer></Footer>
       </div>
     );

@@ -1,22 +1,11 @@
-h1.major,
-h2.major,
-h3.major {
-  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-}
-
 html,
 body,
-div,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
+.App,
+#root {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -28,4 +17,26 @@ body {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+  letter-spacing: 0.15rem;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App > div {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.projectsContainer > *{
+  padding: 3rem 0;
 }

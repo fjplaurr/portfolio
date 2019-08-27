@@ -47,7 +47,7 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            <section id="footer">
+            <div id="footer">
                 <h2 className="major">Get in contact</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <form method="post" action="#" onSubmit={this.onSubmit}>
@@ -72,7 +72,7 @@ export default class Footer extends React.Component {
                     <li><a href="https:www.github.com/fjplaurr" target="_blank"><i className="fab fa-github"></i></a></li>
                     <li><a href="mailto:fjplaurr@gmail.com" target="_blank"><i className="fas fa-envelope"></i></a></li>
                 </ul>
-            </section>
+            </div>
         )
     }
 
