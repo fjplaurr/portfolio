@@ -1,42 +1,41 @@
-html,
-body,
-.App,
-#root {
-  height: 100%;
-  width: 100%;
+* {
   margin: 0;
   padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+}
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 body {
   color: #ffffff;
   text-align: center;
-  min-width: 300px;
-  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
-    url(../../images/codingBackground.jpg);
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center;
 }
 
 h1,
 h2,
 h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;
   letter-spacing: 0.15rem;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  margin: 0 auto;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-}
-
-.App > div {
-  width: 100%;
-  margin: 3rem 0;
-}
-
-.projectsContainer > *{
-  padding: 3rem 0;
+  justify-content: center;
 }

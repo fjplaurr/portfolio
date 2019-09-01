@@ -1,0 +1,30 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: solid 3px rgb(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro h2 span {
+  margin: 0 1rem;
+}
+
+.intro p{
+  width: 40%;
+  text-align: justify;
+  line-height: 1.6rem;
+}

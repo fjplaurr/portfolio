@@ -47,22 +47,22 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            <div id="footer">
-                <h2 className="major">Get in contact</h2>
+            <div className="footer" id="footer">
+                <h2>Get in contact</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <form method="post" action="#" onSubmit={this.onSubmit}>
                     <div className="fields">
                         <div className="nameDiv">
                             <label htmlFor="name">Name:</label>
-                            <input type="text" name="name" id="name" onChange={this.onChangeName} />
+                            <input type="text" name="name" onChange={this.onChangeName} />
                         </div>
                         <div className="emailDiv">
                             <label htmlFor="email">Email:</label>
-                            <input type="email" name="email" id="email" onChange={this.onChangeEmail} />
+                            <input type="email" name="email" onChange={this.onChangeEmail} />
                         </div>
                         <div className="textDiv">
                             <label htmlFor="message">Message:</label>
-                            <textarea name="message" id="message" rows="4" onChange={this.onChangeMessage}></textarea>
+                            <textarea name="message" rows="4" onChange={this.onChangeMessage}></textarea>
                         </div>
                     </div>
                     <input type="submit"></input>
