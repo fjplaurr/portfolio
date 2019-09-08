@@ -49,7 +49,7 @@ export default class Footer extends React.Component {
         return (
             <div className="footer" id="footer">
                 <h2>Get in contact</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Should you want to contact me, you can either send me a message or an email. I will answer you as soon as possible.</p>
                 <form method="post" action="#" onSubmit={this.onSubmit}>
                     <div className="fields">
                         <div className="nameDiv">

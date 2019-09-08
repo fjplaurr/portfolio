@@ -1,56 +1,95 @@
-.projectsContainer {
-  background-color: #2e3141;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .gridWrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2e3141;
+  background-color: darkslategrey;
+  padding: 0 6rem;
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 2rem;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
 .projects article {
-  background-color: #353849;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3rem 0;
 }
 
-.projects article .image {
-  border-radius: 5px 5px 0 0;
-}
-
-.projects article .image img {
-  border-radius: 5px 5px 0 0;
-  width: 100%;
-}
-
-.App .contentWrapper {
-  width: 100%;
+.projects article .projectInfo {
   display: flex;
   flex-direction: column;
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center;
-  background-color: rgb(16,16,16);
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
-.App .contentWrapper > * {
+.projectInfo > * {
+  line-height: 2.5rem;
+  text-align: left;
+}
+
+.projectInfo h3 {
+  margin: 0;
+}
+
+.projects article img {
+  border-radius: 5px;
   width: 100%;
+  min-width: 10rem;
+  max-width: 25rem;
+  margin-right: 2rem;
 }
 
 .projectsContainer > * {
   padding: 5rem 0;
-  width: 100%;
   box-sizing: border-box;
+}
+
+.gridWrapper h2 {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.gridWrapper h3 {
+  font-size: 1.5rem;
+}
+
+.appRepoButtons > li > a {
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.appRepoButtons > li {
+  margin: 0 1rem 1rem 0;
+}
+
+.appRepoButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
+.appRepoButtons > li > a:hover {
+  background-color: #002b26;
+}
+
+.technologies > li {
+  background-color: rgb(20,20,20);
+  font-size: 1rem;
+  color: white;
+  padding: 0 10px;
+  border-radius: 5px;
 }

@@ -1,29 +1,22 @@
 .navDiv {
-  background-color: rgba(16,16,16);
+  background-color: rgba(20, 20, 20);
   position: sticky;
   top: 0;
+  z-index: 10000;
+}
+
+.navDiv nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .anchorNav {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-}
-
-.navDiv i {
-  color: #41484c;
-}
-
-.navDiv a {
-  color: rgba(255, 255, 255, 0.5);
+  padding: 1rem 2rem;
 }
 
 .anchorNav:hover {
-  background-color: rgb(14, 18, 21);
-}
-
-.navDiv nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: #002b26;
 }

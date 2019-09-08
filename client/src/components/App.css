@@ -30,7 +30,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.4rem;
   margin: 0 auto;
 }
 
@@ -38,4 +38,14 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.App .contentWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-position: center, center;
+  background-color: rgb(20,20,20);
 }
