@@ -1,19 +1,25 @@
 import React from 'react';
-import drumMachine from '../../images/drumMachine.png';
+import drumMachineGif from '../../images/drumMachine.gif';
+import drumMachine from '../../images/drumMachine1.png';
+
 
 
 export default function ProjectsContainer() {
     return (
-        <div className="gridWrapper">
+        <div className="gridWrapper" id="gridWrapper">
             <h2>Projects</h2>
             <div className="projects">
                 <article>
-                    <img src={drumMachine} alt="" />
+                    <img className="drumMachineImg"></img>
                     <div className="projectInfo">
                         <h3>Drum Machine</h3>
                         <p>App that allows the user to play a virtual drum machine using different sounds and voices.</p>
                         <ul className="technologies">
-                            <li>wtf</li>
+                            <li>React</li>
+                            <li>Javascript</li>
+                            <li>CSS Flexbox</li>
+                            <li>CSS Grid Layout</li>
+                            <li>HTML5</li>
                         </ul>
                         <ul className="appRepoButtons">
                             <li><a href="https://codepen.io/fjplaurr/full/GVQbQe" target="_blank" className="appAnchor">See app</a></li>

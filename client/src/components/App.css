@@ -47,5 +47,34 @@ h3 {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
-  background-color: rgb(20,20,20);
+  background-color: rgb(20, 20, 20);
+}
+
+.App .contentWrapper > * {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.intro *::selection  {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.footer *::selection  {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.skills *::selection{
+  background-color: darkslategray;
+  color:white;
+}
+
+.gridWrapper *::selection{
+  background-color: rgb(20, 20, 20);
+}
+
+h1::selection {
+  background-color: #222;
+  color: red;
 }

@@ -5,12 +5,9 @@ import React from 'react';
 export default function intro() {
     return (
         <div className="intro" id="intro">
-            <h1>Fran Plaza</h1>
-            <h2>Full-stack web developer <span className="fas fa-rocket"></span></h2>
-            <p>Hi, I'm Fran, an engineer with passion for web programming.
-                I have a strong interest in both Front-End and Back-End and would like to hear from people who share the same interests.
-                I always try to get better by paying full attention to details and reading about web languages and frameworks.
-                I love making useful products for clients and sharing knowledge with other developers.</p>
+            <h1>Francisco Plaza</h1>
+            <h2>Web developer <span className="fas fa-rocket"></span></h2>
+            <p>Hi, I am an engineer with passion for programming. I try to make products that provide a good user experience following two principles: responsivness and simplicity.</p>
         </div>
     )
 }
