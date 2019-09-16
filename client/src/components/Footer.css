@@ -4,6 +4,13 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.footer > p {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 .footer > h2 {
@@ -37,6 +44,7 @@ ul.contact {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 
 ul.contact li {
@@ -60,10 +68,22 @@ input[type="submit"] {
   text-align: center;
 }
 
+/*Next lines used to avoid Chrome from changing colors when autocompleting*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+/****************************************************************************/
+
 input[type="submit"]:hover {
   background-color: #002b26;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -83,10 +103,18 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border-color: #002b26;
+  border-color: darkslategrey;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
+.footer i {
+  font-size: 1.5rem;
+}
+
+.footer i:hover {
+  color: darkslategrey;
+  transition: 0.2s ease-in-out;
+}
+
+.fields label{
+  margin-bottom: 0.3rem;
 }

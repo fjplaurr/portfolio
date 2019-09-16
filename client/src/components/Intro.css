@@ -1,26 +1,44 @@
 .intro {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
-  height: 100vh;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .intro h1 {
-  font-size: 3.5em;
+  font-size: 3.6rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: solid 3px rgb(47, 79, 79);
   font-weight: 500;
+  white-space: pre-wrap;
+  text-align: left;
 }
 
-.intro h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+
+.personalLogo {
+  margin-top:3rem;
+  height: auto;
+  max-width:20%;
+  min-width: 10rem;
+}
+
+.intro h1 img {
+  height: 5rem;
 }
 
 .intro p {
-  width: 40%;
+  min-width: 12rem;
   text-align: justify;
   line-height: 1.6rem;
 }
+
+.introDescription{
+  max-width: 40%;
+}
+

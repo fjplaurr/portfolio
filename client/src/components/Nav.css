@@ -14,9 +14,10 @@
 .anchorNav {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.5rem; 
 }
 
 .anchorNav:hover {
-  background-color: #002b26;
+  background-color: darkslategrey;
+  transition: 0.2s ease-in-out;
 }

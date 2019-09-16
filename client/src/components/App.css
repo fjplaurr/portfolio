@@ -26,12 +26,28 @@ body {
   text-align: center;
 }
 
+body:after {
+  display: none;
+  content: url("../../images/drumMachine.gif");
+}
+
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
-  letter-spacing: 0.4rem;
   margin: 0 auto;
+}
+
+h1 {
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  letter-spacing: 0.3rem;
+}
+
+h3 {
+  letter-spacing: 0.2rem;
 }
 
 .App {
@@ -55,26 +71,26 @@ h3 {
   padding-right: 5%;
 }
 
-.intro *::selection  {
+.intro *::selection {
   background-color: darkslategrey;
   color: white;
 }
 
-.footer *::selection  {
+.footer *::selection {
   background-color: darkslategrey;
   color: white;
 }
 
-.skills *::selection{
+.skills *::selection {
   background-color: darkslategray;
-  color:white;
+  color: white;
 }
 
-.gridWrapper *::selection{
+.gridWrapper *::selection {
   background-color: rgb(20, 20, 20);
 }
 
-h1::selection {
-  background-color: #222;
-  color: red;
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
