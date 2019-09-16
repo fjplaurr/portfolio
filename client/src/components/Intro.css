@@ -16,15 +16,22 @@
   padding-bottom: 1rem;
   border-bottom: solid 3px rgb(47, 79, 79);
   font-weight: 500;
-  white-space: pre-wrap;
   text-align: left;
 }
 
+.intro span {
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.introSentence {
+  display: flex;
+}
 
 .personalLogo {
-  margin-top:3rem;
+  margin-top: 3rem;
   height: auto;
-  max-width:20%;
+  max-width: 20%;
   min-width: 10rem;
 }
 
@@ -38,7 +45,31 @@
   line-height: 1.6rem;
 }
 
-.introDescription{
+.introDescription {
   max-width: 40%;
 }
 
+@media only screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro h1 img {
+    height: 2.5rem;
+  }
+
+  .personalLogo {
+    min-width: 5rem;
+    margin-top: 0;
+  }
+
+  .intro {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    flex-direction: column;
+  }
+
+  .introDescription {
+    max-width: 80%;
+  }
+}
