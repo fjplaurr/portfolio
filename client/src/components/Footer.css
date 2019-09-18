@@ -111,7 +111,7 @@ textarea:focus {
 }
 
 .footer i:hover {
-  color: darkslategrey;
+  color: #e17100;
   transition: 0.2s ease-in-out;
 }
 

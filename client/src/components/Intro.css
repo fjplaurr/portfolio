@@ -24,6 +24,19 @@
   font-family: inherit;
 }
 
+.intro span {
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.intro span.name {
+  color: #2f4f4f;
+}
+
+.intro span.surname {
+  color: #e17100;
+}
+
 .introSentence {
   display: flex;
 }
@@ -33,10 +46,6 @@
   height: auto;
   max-width: 20%;
   min-width: 10rem;
-}
-
-.intro h1 img {
-  height: 5rem;
 }
 
 .intro p {
@@ -52,10 +61,6 @@
 @media only screen and (max-width: 768px) {
   .intro h1 {
     font-size: 1.8rem;
-  }
-
-  .intro h1 img {
-    height: 2.5rem;
   }
 
   .personalLogo {

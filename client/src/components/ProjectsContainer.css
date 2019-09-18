@@ -5,7 +5,7 @@
   align-items: center;
   background-color: darkslategrey;
   padding-bottom: 3rem;
-  padding-top:3rem;
+  padding-top: 3rem;
 }
 
 .projects {
@@ -21,11 +21,7 @@
   padding: 3rem 0;
   padding-bottom: 1.5rem;
   width: 100%;
-  justify-content: space-between;
-}
-
-.projects article:last-child{
-  margin-bottom: 
+  justify-content: flex-start;
 }
 
 .projects article .projectInfo {
@@ -119,24 +115,45 @@
 }
 
 .drumMachineImg {
-  content: url("../../images/drumMachine1.png");
+  background-image: url("../../images/drumMachine1.png");
 }
 
 .drumMachineImg:hover {
-  content: url("../../images/drumMachine.gif");
+  background-image: url("../../images/drumMachine.gif");
 }
 
-.projects article img {
+.markdownPreviewer {
+  background-image: url("../../images/markdownPreviewer1.png");
+}
+
+.markdownPreviewer:hover {
+  background-image: url("../../images/markdownPreviewer.gif");
+}
+
+.quoteMachineImg {
+  background-image: url("../../images/quoteMachine1.png");
+}
+
+.quoteMachineImg:hover {
+  background-image: url("../../images/quoteMachine.gif");
+}
+
+.projects article .image {
   border-radius: 5px;
   margin-bottom: 1rem;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  max-width: 20rem;
-  height: auto;
-  margin-right: 2rem;  
+  width: 18rem;
+  height: 9rem;
+  margin-right: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
-@media only screen and (max-width: 480px){
-  .projects article img {
+@media only screen and (max-width: 480px) {
+  .projects article .image {
     margin-right: 0;
+    width: 12rem;
+    height: 6rem;
   }
 }
