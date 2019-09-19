@@ -28,7 +28,7 @@ body {
 
 body:after {
   display: none;
-  content: url("../../images/drumMachine.gif");
+  content: url("../../images/drumMachine.gif"), url("../../images/markdownPreviewer.gif"), url("../../images/quoteMachine.gif");
 }
 
 h1,
