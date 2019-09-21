@@ -1,5 +1,5 @@
 .skills {
-  background-color: white;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,17 +7,16 @@
   min-height: 50vh;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  
 }
 
 .skills * {
-  color: black;
+  color: var(--black);
 }
 
 .skills h2 {
   font-size: 2rem;
   padding: 2rem 0 1rem 0;
-  border-bottom: solid 3px rgb(47, 79, 79);
+  border-bottom: solid 3px var(--green);
 }
 
 .skills h3 {
@@ -39,7 +38,7 @@
   align-items: center;
   flex-direction: column;
   margin: 4rem 1rem 1rem 1rem;
-  border: 2px solid rgb(47, 79, 79);
+  border: 2px solid var(--green);
   border-radius: 5px;
 }
 
@@ -53,6 +52,8 @@
 
 .logoList li {
   margin-bottom: 2.5rem;
+  white-space: nowrap;
+  font-size: 0.8rem;
 }
 
 .skills .skillLists .skillList .logoList div {
@@ -60,8 +61,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 0.7rem;
-  width:4rem;
-  height:4rem;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
 }
 
@@ -76,6 +77,6 @@
   transition: filter 1s;
 }
 
-.listHeading{
+.listHeading {
   margin: 1rem 0;
 }

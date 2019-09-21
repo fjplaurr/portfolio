@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: darkslategrey;
+  background-color: var(--green);
   padding-bottom: 3rem;
   padding-top: 3rem;
 }
@@ -47,7 +47,7 @@
 .gridWrapper h2 {
   font-size: 2rem;
   padding: 2rem 0 1rem 0;
-  border-bottom: solid 3px white;
+  border-bottom: solid 3px var(--white);
 }
 
 .gridWrapper h3 {
@@ -56,7 +56,7 @@
 
 .appRepoButtons > li > a {
   font-size: 0.8rem;
-  color: white;
+  color: var(--white);
   cursor: pointer;
   transition: 0.2s ease-in-out;
   text-decoration: none;
@@ -82,7 +82,7 @@
 }
 
 .appRepoButtons > li > a:hover {
-  background-color: #002b26;
+  background-color: var(--hoverButtons);
 }
 
 .technologies {
@@ -96,7 +96,7 @@
 }
 
 .technologies > li {
-  color: #ffffff;
+  color: var(--white);
   padding: 0 1rem;
   border-right: 1px solid rgb(255, 255, 255);
   line-height: 1.5rem;
@@ -114,32 +114,27 @@
   padding-right: 0;
 }
 
-.drumMachineImg {
-
+.drumMachineImgPng {
   background-image: url("../../images/drumMachine1.png");
 }
 
-.markdownPreviewer {
+.markdownPreviewerPng {
   background-image: url("../../images/markdownPreviewer1.png");
 }
 
-.markdownPreviewer:hover {
-  background-image: url("../../images/markdownPreviewer.gif");
-}
-
-.quoteMachineImg {
+.quoteMachineImgPng {
   background-image: url("../../images/quoteMachine1.png");
 }
 
-.quoteMachineImg:hover {
-  background-image: url("../../images/quoteMachine.gif");
+.portfolioImgPng {
+  background-image: url("../../images/personalPortfolio.png");
 }
 
-.drumMachineImg2{
-  margin:0;
-  padding:0;
-  height:100%;
-  width:100%;
+.imageGif {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .projects article .image {
@@ -150,7 +145,7 @@
   height: 9rem;
   margin-right: 2rem;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: 50% 50%;
 }
 

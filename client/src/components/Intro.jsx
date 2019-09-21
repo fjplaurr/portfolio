@@ -8,12 +8,12 @@ export default function intro() {
         <div className="intro" id="intro">
             <div className="introDescription">
                 <div className="introSentence">
-                    {/*<h1 >Hello, <br />I am <span><img src={personalLogoF}></img>rancisco </span><span><img src={personalLogoP}></img>laza</span><br />, web developer.</h1>*/}
-                    <h1 >Hello, <br />I am <span className="name">F</span>rancisco<span className="surname"> P</span>laza<br />, web developer.</h1>
+                    <h1 >Hello, <br />I am <span className="name">F</span>rancisco<span className="surname"> P</span>laza,<br />web developer.</h1>
                 </div>
-                <p>Hello, I am an engineer with passion for programming. I try to make products that provide a good user experience following two principles: responsivness and simplicity.</p>
+                <p>Hey there, I am a coder and also an engineer. I love web programming, design and creating value for the company.
+                    In order to do so, I try to make products that provide a nice user experience following three principles: simplicity, responsivness and taking care of the details.</p>
             </div>
-            <img className="personalLogo" src={personalLogo}></img>
+            <img className="personalLogo" ></img>
         </div>
     )
 }

@@ -6,6 +6,15 @@
   vertical-align: baseline;
 }
 
+:root {
+  --black: rgb(0, 0, 0);
+  --white: #ffffff;
+  --green: rgb(50, 120, 120);
+  --lightBlack: rgb(35, 35, 40);
+  --hoverButtons: rgba(0,0,0,0.4);
+  --orange: #e17100;
+}
+
 html,
 body,
 #root,
@@ -22,13 +31,12 @@ ul {
 }
 
 body {
-  color: #ffffff;
+  color: var(--white);
   text-align: center;
 }
 
 body:after {
   display: none;
-  content: url("../../images/drumMachine.gif"), url("../../images/markdownPreviewer.gif"), url("../../images/quoteMachine.gif");
 }
 
 h1,
@@ -63,7 +71,7 @@ h3 {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
-  background-color: rgb(20, 20, 20);
+  background-color: var(--lightBlack);
 }
 
 .App .contentWrapper > * {
@@ -72,25 +80,25 @@ h3 {
 }
 
 .intro *::selection {
-  background-color: darkslategrey;
-  color: white;
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 .footer *::selection {
-  background-color: darkslategrey;
-  color: white;
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 .skills *::selection {
-  background-color: darkslategray;
-  color: white;
+  background-color: var(--green);
+  color: var(--white);
 }
 
 .gridWrapper *::selection {
-  background-color: rgb(20, 20, 20);
+  background-color: var(--lightBlack);
 }
 
 a {
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
 }
