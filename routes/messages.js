@@ -8,7 +8,7 @@ router.route('/add').post((req, res) => {
     const email = req.body.email;
     const newMessage = new Message({ textMessage, name, email });
     newMessage.save().then(() =>
-        res.json('Message added to DB.')
+        alert('Message added to DB.')
     ).catch(err => res.status(400).json('Error: ' + err));
 });
 
