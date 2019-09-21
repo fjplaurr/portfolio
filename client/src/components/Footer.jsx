@@ -24,13 +24,21 @@ export default class Footer extends React.Component {
             textMessage: this.state.message
         }
         console.log(message);
-        axios.post('/add', message).then(res => console.log(res.data));
+        axios.post('/add', message).then(res => {
+            console.log(res);
+        });
+        this.setState({
+            name: '',
+            email: '',
+            message: 'Message correctly sent! I will answer you as soon as possible.'
+        });
     }
 
     onChangeName(e) {
         this.setState({
             name: e.target.value
         });
+        console.log(this.state);
     }
 
     onChangeEmail(e) {
@@ -43,26 +51,27 @@ export default class Footer extends React.Component {
         this.setState({
             message: e.target.value
         });
+        console.log("Mensaje cambiado: " + this.state.message);
     }
 
     render() {
         return (
             <div className="footer" id="footer">
                 <h2>Get in contact</h2>
-                <p>Should you want to contact me, you can either send me a message or an email. I will answer you as soon as possible.</p>
+                <p>Should you want to contact me, you can either send me a message or an email.</p>
                 <form method="post" action="#" onSubmit={this.onSubmit}>
                     <div className="fields">
                         <div className="nameDiv">
                             <label htmlFor="name">Name:</label>
-                            <input type="text" name="name" onChange={this.onChangeName} />
+                            <input type="text" name="name" onChange={this.onChangeName} value={this.state.name} />
                         </div>
                         <div className="emailDiv">
                             <label htmlFor="email">Email:</label>
-                            <input type="email" name="email" onChange={this.onChangeEmail} />
+                            <input type="email" name="email" onChange={this.onChangeEmail} value={this.state.email} />
                         </div>
                         <div className="textDiv">
                             <label htmlFor="message">Message:</label>
-                            <textarea name="message" rows="4" onChange={this.onChangeMessage}></textarea>
+                            <textarea name="message" rows="4" onChange={this.onChangeMessage} value={this.state.message}></textarea>
                         </div>
                     </div>
                     <input type="submit"></input>
