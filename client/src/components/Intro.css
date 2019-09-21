@@ -10,15 +10,6 @@
   box-sizing: border-box;
 }
 
-.intro h1 {
-  font-size: 3.6rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: solid 3px var(--gren);
-  font-weight: 500;
-  text-align: left;
-}
-
 .intro span {
   font-family: inherit;
 }
@@ -39,14 +30,15 @@
   content: url("../../images/personalLogo.svg");
   height: auto;
   max-width: 20%;
-  min-width: 11rem;
+  min-width: 12rem;
 }
 
 .intro p {
+  font-size: 1.2rem;
   min-width: 12rem;
   text-align: justify;
-  line-height: 2rem;
-  color:rgb(255,255,255,0.7);
+  line-height: 1.8rem;
+  color: rgb(255, 255, 255, 0.7);
 }
 
 .introDescription {
@@ -56,23 +48,61 @@
   align-items: start;
 }
 
-@media only screen and (max-width: 768px) {
+.intro h1 {
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: solid 3px var(--gren);
+  font-weight: 500;
+  text-align: left;
+}
+
+/*Mobile Phones*/
+@media only screen and (max-width: 767px) {
   .intro h1 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
+    padding-bottom: 0.5rem;
   }
 
   .personalLogo {
-    min-width: 5rem;
+    min-width: 4rem;
     margin-top: 0;
   }
 
   .intro {
     padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
+    padding-top: 0;
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .introDescription {
     max-width: 80%;
+  }
+
+  .intro p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .intro {
+    min-height: calc(100vh - 2rem);
+  }
+}
+
+/*Mobile Phones Landscape*/
+@media only screen and (max-width: 767px) and (orientation: Landscape) {
+  .intro {
+    flex-direction: row;
+  }
+  .introDescription {
+    max-width: 60%;
+  }
+}
+
+/*Tablets Portrait and Landscape*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .introDescription {
+    max-width: 60%;
   }
 }

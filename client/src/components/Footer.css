@@ -87,7 +87,7 @@ input:-webkit-autofill {
 /****************************************************************************/
 
 input[type="submit"]:hover {
-  background-color: rgb(255,255,255,0.1);
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
 input[type="text"],
@@ -123,3 +123,14 @@ textarea:focus {
 .fields label {
   margin-bottom: 0.3rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .footer > h2 {
+    font-size: 1.6rem;
+  }
+
+  .footer > p {
+    margin-top: 2rem;
+  }
+}
+

@@ -52,6 +52,7 @@
 
 .gridWrapper h3 {
   font-size: 1.5rem;
+  color: var(--white);
 }
 
 .appRepoButtons > li > a {
@@ -88,7 +89,6 @@
 .technologies {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   white-space: nowrap;
   flex-wrap: wrap;
@@ -96,9 +96,9 @@
 }
 
 .technologies > li {
-  color: var(--white);
+  color: rgb(255, 255, 255, 0.5);
   padding: 0 1rem;
-  border-right: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255, 0.5);
   line-height: 1.5rem;
 }
 
@@ -149,10 +149,74 @@
   background-position: 50% 50%;
 }
 
-@media only screen and (max-width: 480px) {
+/*Mobile Phones*/
+@media only screen and (max-width: 767px) {
   .projects article .image {
     margin-right: 0;
     width: 12rem;
     height: 6rem;
+  }
+
+  .gridWrapper h2 {
+    font-size: 1.6rem;
+  }
+
+  .projectInfo h3 {
+    font-size: 1.3rem;
+  }
+
+  .projectInfo > * {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .projectInfo > p {
+    align-self: flex-start;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .projects article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects article .projectInfo {
+    align-items: center;
+  }
+
+  .technologies > li {
+    padding: 0 0.7rem;
+  }
+
+  .appRepoButtons > li > a {
+    padding: 0.9rem 0.7rem;
+  }
+
+  .projects article .image {
+    margin-bottom: 0.5rem;
+  }
+
+  .technologies {
+    justify-content: center;
+  }
+}
+
+/*Tablets Portrait and Landscape*/
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .gridWrapper h3 {
+    align-self: center;
+  }
+
+  .appRepoButtons {
+    align-self: center;
+  }
+
+  .projects article .image {
+    align-self: center;
+  }
+
+  .projects article {
+    flex-direction: column;
   }
 }

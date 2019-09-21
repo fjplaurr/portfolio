@@ -10,7 +10,7 @@
 }
 
 .skills * {
-  color: var(--black);
+  color: var(--lightBlack);
 }
 
 .skills h2 {
@@ -79,4 +79,27 @@
 
 .listHeading {
   margin: 1rem 0;
+}
+
+/*Mobile Phones*/
+@media only screen and (max-width: 767px) {
+  .skills .skillLists .skillList .logoList div {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .skills .skillLists .skillList {
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .skills h2 {
+    font-size: 1.6rem;
+  }
+  .skills h3 {
+    font-size: 1.3rem;
+  }
+
+  .logoList li {
+    font-size: 0.7rem;
+  }
 }

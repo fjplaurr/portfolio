@@ -22,3 +22,15 @@
   color: var(--orange);
   transition: 0.2s ease-in-out;
 }
+
+@media only screen and (max-width: 767px) {
+  .anchorNav {
+    padding: 0.5rem 0.5rem;
+  } 
+  .navDiv nav {
+    height: 2rem;
+  } 
+  .navDiv nav a {
+    font-size: 0.9rem;
+  } 
+}
