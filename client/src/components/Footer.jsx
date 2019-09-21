@@ -77,9 +77,18 @@ export default class Footer extends React.Component {
                     <input type="submit"></input>
                 </form>
                 <ul className="contact">
-                    <li><a href="https:www.linkedin.com/in/fcojplaza" target="_blank"><i className="fab fa-linkedin"></i></a></li>
-                    <li><a href="https:www.github.com/fjplaurr" target="_blank"><i className="fab fa-github"></i></a></li>
-                    <li><a href="mailto:fjplaurr@gmail.com" target="_blank"><i className="fas fa-envelope"></i></a></li>
+                    <li><a href="https:www.linkedin.com/in/fcojplaza" target="_blank">
+                        <i className="fab fa-linkedin"></i>
+                        <p>LinkedIn</p>
+                    </a></li>
+                    <li><a href="https:www.github.com/fjplaurr" target="_blank">
+                        <i className="fab fa-github"></i>
+                        <p>GitHub</p>
+                    </a></li>
+                    <li><a href="mailto:fjplaurr@gmail.com" target="_blank">
+                        <i className="fas fa-envelope"></i>
+                        <p>Email</p>
+                    </a></li>
                 </ul>
             </div>
         )
