@@ -101,7 +101,7 @@
 }
 
 /*Tablets Portrait and Landscape*/
-@media only screen and (min-width: 768px) and (max-width: 1366px) {
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
   .introDescription {
     max-width: 60%;
   }
