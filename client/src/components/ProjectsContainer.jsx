@@ -98,7 +98,7 @@ export default class ProjectsContainer extends React.Component {
                         </div >
                         <div className="projectInfo">
                             <h3>Quote Machine</h3>
-                            <p>App that deliveres quotes that can be shared in social media.</p>
+                            <p>App that delivers quotes that can be shared in social media.</p>
                             <ul className="technologies">
                                 <li>React</li>
                                 <li>Javascript</li>
