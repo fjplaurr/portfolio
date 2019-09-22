@@ -77,11 +77,11 @@ export default class Footer extends React.Component {
                     <input type="submit"></input>
                 </form>
                 <ul className="contact">
-                    <li><a href="https:www.linkedin.com/in/fcojplaza" target="_blank">
+                    <li><a href="https://www.linkedin.com/in/fcojplaza" target="_blank">
                         <i className="fab fa-linkedin"></i>
                         <p>LinkedIn</p>
                     </a></li>
-                    <li><a href="https:www.github.com/fjplaurr" target="_blank">
+                    <li><a href="https://www.github.com/fjplaurr" target="_blank">
                         <i className="fab fa-github"></i>
                         <p>GitHub</p>
                     </a></li>
