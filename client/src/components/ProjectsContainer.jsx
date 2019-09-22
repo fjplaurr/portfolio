@@ -106,7 +106,7 @@ export default class ProjectsContainer extends React.Component {
                                 <li>HTML5</li>
                             </ul>
                             <ul className="appRepoButtons">
-                                <li><a href="https://codepen.io/fjplaurr/full/GVQbQe" target="_blank" className="appAnchor">See app</a></li>
+                                <li><a href="https://codepen.io/fjplaurr/full/pmwQWz" target="_blank" className="appAnchor">See app</a></li>
                                 <li><a href="https://github.com/fjplaurr/quoteMachine" target="_blank" className="repoAnchor">See repository</a></li>
                             </ul>
                         </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import personalLogo from '../../images/personalLogo.svg';
 
 
 
@@ -11,7 +10,7 @@ export default function intro() {
                     <h1 >Hello, <br />I am <span className="name">F</span>rancisco<span className="surname"> P</span>laza,<br />web developer.</h1>
                 </div>
                 <p>Hey there, I am a coder and also an engineer. I love web programming, design and creating value for the company.
-                    In order to do so, I try to make products that provide a nice user experience following three principles: simplicity, responsivness and taking care of the details.</p>
+                    In order to do so, I try to make products that provide a nice user experience following three principles: simplicity, responsive design and attention to detail.</p>
             </div>
             <img className="personalLogo" ></img>
         </div>
