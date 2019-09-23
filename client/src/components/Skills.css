@@ -81,14 +81,9 @@
   cursor: pointer;
 }
 
-.skills .skillLists .skillList .logoList div :hover {
-  filter: grayscale(0);
-}
-
 .skills .skillLists .skillList .logoList img {
   height: 100%;
   width: 100%;
-  filter: grayscale(1);
 }
 
 .listHeading {
