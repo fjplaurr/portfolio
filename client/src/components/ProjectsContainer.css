@@ -3,14 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--green);
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  background-color: var(--white);
+  padding-bottom: 5rem;
+  padding-top: 8rem;
+  position: relative;
 }
 
 .projects {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects article {
@@ -19,9 +22,18 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 3rem 0;
-  padding-bottom: 1.5rem;
   width: 100%;
   justify-content: flex-start;
+  align-items: center;
+}
+
+.projects article .image {
+  width: 20rem;
+  height: 10rem;
+  margin-right: 12rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
 }
 
 .projects article .projectInfo {
@@ -33,10 +45,16 @@
 .projectInfo > * {
   line-height: 2.5rem;
   text-align: left;
+  color: var(--black);
 }
 
 .projectInfo h3 {
   margin: 0;
+  margin-bottom: 1rem;
+}
+
+.projectInfo p {
+  font-size: 1.2rem;
 }
 
 .projectsContainer > * {
@@ -45,19 +63,16 @@
 }
 
 .gridWrapper h2 {
-  font-size: 2rem;
-  padding: 2rem 0 1rem 0;
-  border-bottom: solid 3px var(--white);
+  padding: 0 0 1.5rem 0;
+  color: var(--black);
 }
 
 .gridWrapper h3 {
-  font-size: 1.5rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 .appRepoButtons > li > a {
-  font-size: 0.8rem;
-  color: var(--white);
+  font-size: 1rem;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   text-decoration: none;
@@ -66,8 +81,26 @@
   font-weight: 500;
   letter-spacing: 0.1rem;
   text-align: center;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  background-color: transparent;
+}
+
+.repoAnchor {
+  border: 2px solid rgb(50, 120, 120, 1);
+  color: rgb(50, 120, 120);
+}
+
+.appAnchor {
+  border: 2px solid rgb(225, 113, 0, 1);
+  color: rgb(225, 113, 0);
+}
+
+.appAnchor:hover {
+  background-color: rgb(225, 113, 0, 1);
+  color: white;
+}
+
+.repoAnchor:hover {
+  background-color: rgb(50, 120, 120, 1);
+  color: white;
 }
 
 .appRepoButtons > li {
@@ -82,10 +115,6 @@
   line-height: 2rem;
 }
 
-.appRepoButtons > li > a:hover {
-  background-color: var(--hoverButtons);
-}
-
 .technologies {
   display: flex;
   flex-direction: row;
@@ -93,12 +122,13 @@
   white-space: nowrap;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin: 0.5rem 0;
 }
 
 .technologies > li {
-  color: rgb(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0, 0.5);
   padding: 0 1rem;
-  border-right: 1px solid rgb(255, 255, 255, 0.5);
+  border-right: 1px solid rgb(0, 0, 0, 0.5);
   line-height: 1.5rem;
 }
 
@@ -135,18 +165,6 @@
   padding: 0;
   height: 100%;
   width: 100%;
-}
-
-.projects article .image {
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  /*border: 2px solid rgba(255, 255, 255, 0.3);*/
-  width: 18rem;
-  height: 9rem;
-  margin-right: 2rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
 }
 
 /*Mobile Phones*/
@@ -212,11 +230,17 @@
     align-self: center;
   }
 
+  .projects article .image{
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
   .projects article .image {
     align-self: center;
   }
 
   .projects article {
     flex-direction: column;
+    align-items: center;
   }
 }

@@ -7,11 +7,11 @@
 }
 
 :root {
-  --black: rgb(0, 0, 0);
   --white: #ffffff;
   --green: rgb(50, 120, 120);
-  --lightBlack: rgb(35, 35, 40);
-  --hoverButtons: rgba(0,0,0,0.4);
+  --lightBlack: rgb(35, 35, 45);
+  --black: rgb(20, 20, 20);
+  --hoverButtons: rgba(0, 0, 0, 0.4);
   --orange: #e17100;
 }
 
@@ -42,20 +42,24 @@ body:after {
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
   margin: 0 auto;
+  font-family: "Adriane Text", sans-serif;
 }
 
 h1 {
-  letter-spacing: 0.1rem;
+  font-size: 3.4rem;
 }
-
 h2 {
-  letter-spacing: 0.3rem;
+  font-size: 2.6rem;
+}
+h3 {
+  font-size: 1.8rem;
 }
 
+h1,
+h2,
 h3 {
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .App {
@@ -68,10 +72,6 @@ h3 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-size: auto, cover;
-  background-attachment: fixed, fixed;
-  background-position: center, center;
-  background-color: var(--lightBlack);
 }
 
 .App .contentWrapper > * {
@@ -80,22 +80,21 @@ h3 {
 }
 
 .intro *::selection {
-  background-color: var(--orange);
+  background-color: rgb(225, 113, 0, 0.3);
   color: var(--white);
 }
 
 .footer *::selection {
-  background-color: var(--orange);
+  background-color:rgb(225, 113, 0, 0.3);
   color: var(--white);
 }
 
 .skills *::selection {
-  background-color: var(--green);
-  color: var(--white);
+  background-color: rgb(50, 120, 120, 0.3);
 }
 
 .gridWrapper *::selection {
-  background-color: var(--lightBlack);
+  background-color: rgb(50, 120, 120, 0.3);
 }
 
 a {
@@ -103,6 +102,20 @@ a {
   text-decoration: none;
 }
 
-p{
+p {
   text-align: justify;
+}
+
+@font-face {
+  font-family: "Adriane Text";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AdrianeTextRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Adriane Text Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AdrianeTextBold.woff") format("woff");
 }

@@ -13,6 +13,10 @@
 }
 
 .anchorNav {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.anchorNav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0.5rem;
@@ -26,11 +30,11 @@
 @media only screen and (max-width: 767px) {
   .anchorNav {
     padding: 0.5rem 0.5rem;
-  } 
+  }
   .navDiv nav {
     height: 2rem;
-  } 
+  }
   .navDiv nav a {
     font-size: 0.9rem;
-  } 
+  }
 }

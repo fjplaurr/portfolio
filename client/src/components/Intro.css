@@ -8,6 +8,7 @@
   padding-top: 3rem;
   min-height: calc(100vh - 3.5rem);
   box-sizing: border-box;
+  background-color: var(--lightBlack);
 }
 
 .intro span {
@@ -30,15 +31,16 @@
   content: url("../../images/personalLogo.svg");
   height: auto;
   max-width: 20%;
-  min-width: 12rem;
+  min-width: 10rem;
 }
 
 .intro p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   min-width: 12rem;
-  text-align: justify;
+  text-align: left;
   line-height: 1.8rem;
   color: rgb(255, 255, 255, 0.7);
+  width: 80%;
 }
 
 .introDescription {
@@ -49,12 +51,12 @@
 }
 
 .intro h1 {
-  font-size: 3.6rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: solid 3px var(--gren);
-  font-weight: 500;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  opacity: 1;
   text-align: left;
+  font-family: "Adriane Text", serif;
 }
 
 /*Mobile Phones*/

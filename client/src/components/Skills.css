@@ -5,22 +5,25 @@
   justify-content: center;
   align-items: center;
   min-height: 50vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 5rem 0;
+  border-bottom: 1px solid #dae2e5;
 }
 
 .skills * {
   color: var(--lightBlack);
 }
 
+.skills p{
+  color: rgb(0,0,0,0.7);
+  margin-top: 0.2rem;
+}
+
 .skills h2 {
-  font-size: 2rem;
   padding: 2rem 0 1rem 0;
-  border-bottom: solid 3px var(--green);
 }
 
 .skills h3 {
-  font-size: 1.5rem;
+  font-family: "Adriane Text", serif;
 }
 
 .skills .skillLists {
@@ -38,8 +41,9 @@
   align-items: center;
   flex-direction: column;
   margin: 4rem 1rem 1rem 1rem;
-  border: 2px solid var(--green);
-  border-radius: 5px;
+  /*box-shadow: 0 14px 28px rgba(3, 42, 60, 0.25), 0 10px 10px rgba(3, 42, 60, 0.22), 0 -3px 10px rgba(3, 42, 60, 0.15);*/
+  box-shadow: 0 14px 28px rgba(3, 42, 60, 0.25), 0 10px 10px rgba(3, 42, 60, 0.22), 0 -3px 10px rgba(3, 42, 60, 0.15);
+  background-color: white;
 }
 
 .skills .skillLists .skillList .logoList {
@@ -64,11 +68,12 @@
 
 .logoList li div a img {
   margin-bottom: 0.1rem;
+
 }
 
 .logoList li div a img:hover {
-  transform: rotate(-15deg);
   transition: 0.2s;
+  transform: translateY(-5px);
 }
 
 .skills .skillLists .skillList .logoList div {

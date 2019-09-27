@@ -9,8 +9,7 @@ export default function intro() {
                 <div className="introSentence">
                     <h1 >Hello, <br />I am <span className="name">F</span>rancisco<span className="surname"> P</span>laza,<br />web developer.</h1>
                 </div>
-                <p>Hey there, I am a coder and also an engineer. I love web programming, design and creating value for the company.
-                    In order to do so, I try to make products that provide a nice user experience following three principles: simplicity, responsive design and attention to detail.</p>
+                <p>Making useful and nice products that provide a good user experience following three principles: simplicity, responsive design and attention to detail.</p>
             </div>
             <img className="personalLogo" ></img>
         </div>
