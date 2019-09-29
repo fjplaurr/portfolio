@@ -6,6 +6,7 @@
   background-color: var(--white);
   padding-bottom: 5rem;
   padding-top: 6rem;
+  background-color: rgb(225, 113, 0, 0.05);
 }
 
 .projects {
@@ -83,22 +84,25 @@
 
 .repoAnchor {
   border: 2px solid rgb(50, 120, 120, 1);
-  color: rgb(50, 120, 120);
+  color: white;
+  background-color: var(--green);
+
 }
 
 .appAnchor {
   border: 2px solid rgb(225, 113, 0, 1);
-  color: rgb(225, 113, 0);
+  color: white;
+  background-color: var(--orange);
 }
 
 .appAnchor:hover {
-  background-color: rgb(225, 113, 0, 1);
-  color: white;
+  background-color: transparent;
+  color: var(--orange);
 }
 
 .repoAnchor:hover {
-  background-color: rgb(50, 120, 120, 1);
-  color: white;
+  background-color: transparent;
+  color: var(--green);
 }
 
 .appRepoButtons > li {

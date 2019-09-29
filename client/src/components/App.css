@@ -85,12 +85,12 @@ h3 {
 }
 
 .footer *::selection {
-  background-color:rgb(225, 113, 0, 0.3);
+  background-color: rgb(225, 113, 0, 0.3);
   color: var(--white);
 }
 
 .skills *::selection {
-  background-color: rgb(50, 120, 120, 0.3);
+  background-color: rgb(225, 113, 0, 0.3);
 }
 
 .gridWrapper *::selection {

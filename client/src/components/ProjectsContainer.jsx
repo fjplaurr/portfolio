@@ -49,7 +49,7 @@ export default class ProjectsContainer extends React.Component {
                                 <li>MongoDB</li>
                             </ul>
                             <ul className="appRepoButtons">
-                                <li><a href="https://github.com/fjplaurr/personal-portfolio" target="_blank" className="repoAnchor">See repository</a></li>
+                                <li><a href="https://github.com/fjplaurr/personal-portfolio" target="_blank" className="repoAnchor">See Code</a></li>
                             </ul>
                         </div>
                     </article>
@@ -69,7 +69,7 @@ export default class ProjectsContainer extends React.Component {
                             </ul>
                             <ul className="appRepoButtons">
                                 <li><a href="https://codepen.io/fjplaurr/full/GVQbQe" target="_blank" className="appAnchor">See app</a></li>
-                                <li><a href="https://github.com/fjplaurr/drumMachine" target="_blank" className="repoAnchor">See repository</a></li>
+                                <li><a href="https://github.com/fjplaurr/drumMachine" target="_blank" className="repoAnchor">See code</a></li>
                             </ul>
                         </div>
                     </article>
@@ -88,7 +88,7 @@ export default class ProjectsContainer extends React.Component {
                             </ul>
                             <ul className="appRepoButtons">
                                 <li><a href="https://codepen.io/fjplaurr/full/qzwxPy" target="_blank" className="appAnchor">See app</a></li>
-                                <li><a href="https://github.com/fjplaurr/reactMarkdownPreviewer" target="_blank" className="repoAnchor">See repository</a></li>
+                                <li><a href="https://github.com/fjplaurr/reactMarkdownPreviewer" target="_blank" className="repoAnchor">See code</a></li>
                             </ul>
                         </div>
                     </article>
@@ -107,7 +107,7 @@ export default class ProjectsContainer extends React.Component {
                             </ul>
                             <ul className="appRepoButtons">
                                 <li><a href="https://codepen.io/fjplaurr/full/pmwQWz" target="_blank" className="appAnchor">See app</a></li>
-                                <li><a href="https://github.com/fjplaurr/quoteMachine" target="_blank" className="repoAnchor">See repository</a></li>
+                                <li><a href="https://github.com/fjplaurr/quoteMachine" target="_blank" className="repoAnchor">See code</a></li>
                             </ul>
                         </div>
                     </article>
