@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   padding-bottom: 3rem;
@@ -30,8 +30,8 @@
 .personalLogo {
   content: url("../../images/personalLogo.svg");
   height: auto;
-  max-width: 20%;
-  min-width: 10rem;
+  min-width: 12rem;
+  margin-left: 3rem;
 }
 
 .intro p {
@@ -40,7 +40,7 @@
   text-align: left;
   line-height: 1.8rem;
   color: rgb(255, 255, 255, 0.7);
-  width: 80%;
+  max-width: 70%;
 }
 
 .introDescription {
@@ -57,6 +57,16 @@
   opacity: 1;
   text-align: left;
   font-family: "Adriane Text", serif;
+  animation: opac 3s;
+}
+
+@keyframes opac {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*Mobile Phones*/
@@ -69,6 +79,7 @@
   .personalLogo {
     min-width: 4rem;
     margin-top: 0;
+    margin-left: 0;
   }
 
   .intro {
@@ -100,11 +111,17 @@
   .introDescription {
     max-width: 60%;
   }
+  .personalLogo {
+    margin-left: 0;
+  }
 }
 
 /*Tablets Portrait and Landscape*/
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
   .introDescription {
     max-width: 60%;
+  }
+  .personalLogo {
+    margin-left: 0;
   }
 }

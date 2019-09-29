@@ -5,8 +5,7 @@
   align-items: center;
   background-color: var(--white);
   padding-bottom: 5rem;
-  padding-top: 8rem;
-  position: relative;
+  padding-top: 6rem;
 }
 
 .projects {
@@ -20,7 +19,6 @@
   border-radius: 5px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   padding: 3rem 0;
   width: 100%;
   justify-content: flex-start;
@@ -30,7 +28,7 @@
 .projects article .image {
   width: 20rem;
   height: 10rem;
-  margin-right: 12rem;
+  margin-right: 6rem;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -177,10 +175,11 @@
 
   .gridWrapper h2 {
     font-size: 1.6rem;
+    padding-bottom: 0;
   }
 
   .projectInfo h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .projectInfo > * {
@@ -230,13 +229,21 @@
     align-self: center;
   }
 
-  .projects article .image{
+  .projects article .image {
     margin-right: 0;
     margin-bottom: 1rem;
   }
 
   .projects article .image {
     align-self: center;
+  }
+
+  .projectInfo > p {
+    text-align: center;
+  }
+
+  .projects article .projectInfo {
+    align-items: center;
   }
 
   .projects article {

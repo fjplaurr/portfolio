@@ -6,15 +6,16 @@
   align-items: center;
   min-height: 50vh;
   padding: 5rem 0;
-  border-bottom: 1px solid #dae2e5;
+  background-color: rgb(50, 120, 120, 0.05);
+
 }
 
 .skills * {
   color: var(--lightBlack);
 }
 
-.skills p{
-  color: rgb(0,0,0,0.7);
+.skills p {
+  color: rgb(0, 0, 0, 0.7);
   margin-top: 0.2rem;
 }
 
@@ -41,7 +42,6 @@
   align-items: center;
   flex-direction: column;
   margin: 4rem 1rem 1rem 1rem;
-  /*box-shadow: 0 14px 28px rgba(3, 42, 60, 0.25), 0 10px 10px rgba(3, 42, 60, 0.22), 0 -3px 10px rgba(3, 42, 60, 0.15);*/
   box-shadow: 0 14px 28px rgba(3, 42, 60, 0.25), 0 10px 10px rgba(3, 42, 60, 0.22), 0 -3px 10px rgba(3, 42, 60, 0.15);
   background-color: white;
 }
@@ -68,7 +68,6 @@
 
 .logoList li div a img {
   margin-bottom: 0.1rem;
-
 }
 
 .logoList li div a img:hover {
