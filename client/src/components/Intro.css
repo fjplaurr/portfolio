@@ -32,7 +32,11 @@
   height: auto;
   min-width: 12rem;
   margin-left: 3rem;
+<<<<<<< HEAD
   animation: opac 4s, transl 4s;
+=======
+  animation: opac 5s, transl 5s;
+>>>>>>> 69ae0d025ad824417e32af98521f46078e4acb67
 }
 
 .intro p {
@@ -56,7 +60,10 @@
   padding-bottom: 1rem;
   text-align: left;
   font-family: "Adriane Text", serif;
+<<<<<<< HEAD
   animation: opac 4s, transl 4s;
+=======
+>>>>>>> 69ae0d025ad824417e32af98521f46078e4acb67
 }
 
 @keyframes opac {
@@ -80,7 +87,7 @@
 /*Mobile Phones*/
 @media only screen and (max-width: 767px) {
   .intro h1 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     padding-bottom: 0.5rem;
   }
 
