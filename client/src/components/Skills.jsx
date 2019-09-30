@@ -61,19 +61,23 @@ export default function Skills() {
                             <img src={mysqlLogo} alt="MySQL logo"></img>
                             <p>MySQL</p>
                         </a></div></li>
+                        {/* 
                         <li><div><a href="https://www.microsoft.com/sql-server" target="_blank">
                             <img src={SQLServerLogo} alt="SQL Server logo"></img>
                             <p>SQL Server</p>
                         </a></div></li>
+                        */}
                     </ul>
                 </div>
                 <div className="skillList">
                     <h3 className="listHeading">Other Technologies</h3>
                     <ul className="logoList">
+                        {/* 
                         <li><div><a href="https://docs.microsoft.com/dotnet/csharp" target="_blank">
                             <img src={CSharpLogo} alt="C# logo"></img>
-                            <p>C#</p>
+                            <p>C#</p>        
                         </a></div></li>
+                          */}
                         <li><div><a href="https://www.java.com" target="_blank">
                             <img src={javaLogo} alt="Java logo"></img>
                             <p>Java</p>

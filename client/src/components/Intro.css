@@ -32,6 +32,7 @@
   height: auto;
   min-width: 12rem;
   margin-left: 3rem;
+  animation: opac 4s, transl 4s;
 }
 
 .intro p {
@@ -40,7 +41,7 @@
   text-align: left;
   line-height: 1.8rem;
   color: rgb(255, 255, 255, 0.7);
-  max-width: 70%;
+  max-width: 85%;
 }
 
 .introDescription {
@@ -53,12 +54,9 @@
 .intro h1 {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
-  opacity: 1;
   text-align: left;
   font-family: "Adriane Text", serif;
-  animation: opac 5s, transl 5s;
-
+  animation: opac 4s, transl 4s;
 }
 
 @keyframes opac {
@@ -72,7 +70,7 @@
 
 @keyframes transl {
   0% {
-    transform: translateY(-20px);
+    transform: translateY(-80px);
   }
   100% {
     transform: translateY(0px);

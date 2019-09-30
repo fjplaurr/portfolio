@@ -27,6 +27,10 @@
   transition: 0.2s ease-in-out;
 }
 
+.logoNav{
+  justify-self: left;
+}
+
 @media only screen and (max-width: 767px) {
   .anchorNav {
     padding: 0.5rem 0.5rem;
