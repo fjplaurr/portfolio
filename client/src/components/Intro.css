@@ -41,7 +41,7 @@
   text-align: left;
   line-height: 1.8rem;
   color: rgb(255, 255, 255, 0.7);
-  max-width: 70%;
+  max-width: 85%;
 }
 
 .introDescription {
@@ -81,7 +81,7 @@
 /*Mobile Phones*/
 @media only screen and (max-width: 767px) {
   .intro h1 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     padding-bottom: 0.5rem;
   }
 
