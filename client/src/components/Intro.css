@@ -33,9 +33,6 @@
   min-width: 12rem;
   margin-left: 3rem;
   animation: opac 4s, transl 4s;
-=======
-  animation: opac 5s, transl 5s;
->>>>>>> 69ae0d025ad824417e32af98521f46078e4acb67
 }
 
 .intro p {
