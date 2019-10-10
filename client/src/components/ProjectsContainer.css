@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
   background-color: var(--white);
   padding-bottom: 10rem;
   padding-top: 14rem;
@@ -59,6 +60,7 @@
 .projectInfo > * {
   line-height: 2.5rem;
   text-align: left;
+  color: rgb(20,20,20);
   color: var(--black);
 }
 
@@ -87,10 +89,12 @@
 
 .gridWrapper h2 {
   padding: 2rem 0 3rem 0;
+  color: rgb(20,20,20);
   color: var(--black);
 }
 
 .gridWrapper h3 {
+  color: rgb(20,20,20);
   color: var(--black);
 }
 
@@ -109,22 +113,26 @@
 .repoAnchor {
   border: 2px solid rgb(50, 120, 120, 1);
   color: white;
+  background-color: rgb(50, 120, 120);
   background-color: var(--green);
 }
 
 .appAnchor {
   border: 2px solid rgb(225, 113, 0, 1);
   color: white;
+  background-color: #e17100;
   background-color: var(--orange);
 }
 
 .appAnchor:hover {
   background-color: transparent;
+  color: #e17100;
   color: var(--orange);
 }
 
 .repoAnchor:hover {
   background-color: transparent;
+  color: rgb(50, 120, 120);
   color: var(--green);
 }
 

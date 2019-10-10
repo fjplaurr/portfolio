@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './ProjectsContainer.css';
 import './Footer.css';
 import './App.css';
@@ -12,20 +12,17 @@ import Footer from './Footer';
 import Nav from './Nav';
 
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Nav></Nav>
-        <div className="contentWrapper">
-          <Intro></Intro>
-          <Skills></Skills>
-          <ProjectsContainer></ProjectsContainer>
-          <Footer></Footer>
-        </div>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Nav />
+    <div className="contentWrapper">
+      <Intro />
+      <Skills />
+      <ProjectsContainer />
+      <Footer />
+    </div>
+  </div>
+);
+
 
 export default App;

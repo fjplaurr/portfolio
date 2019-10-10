@@ -2,9 +2,9 @@
 const mongoose = require('mongoose');
 
 const messageSchema = new mongoose.Schema({
-    textMessage: String,
-    name: String,
-    email: String
+  textMessage: String,
+  name: String,
+  email: String,
 });
 
 const Message = mongoose.model('Message', messageSchema);

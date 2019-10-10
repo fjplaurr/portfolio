@@ -8,6 +8,7 @@
   padding-top: 3rem;
   min-height: calc(100vh - 3.5rem);
   box-sizing: border-box;
+  background-color: rgb(35, 35, 45);
   background-color: var(--lightBlack);
 }
 
@@ -16,10 +17,12 @@
 }
 
 .intro span.name {
+  color: rgb(50, 120, 120);
   color: var(--green);
 }
 
 .intro span.surname {
+  color: #e17100;
   color: var(--orange);
 }
 
@@ -28,7 +31,6 @@
 }
 
 .personalLogo {
-  content: url("../../images/personalLogo.svg");
   height: auto;
   min-width: 12rem;
   margin-left: 3rem;
