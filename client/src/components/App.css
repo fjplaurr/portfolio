@@ -81,23 +81,23 @@ h3 {
 }
 
 .intro *::selection {
-  background-color: rgb(225, 113, 0, 0.3);
+  background-color: rgba(225, 113, 0, 0.3);
   color: #ffffff;
   color: var(--white);
 }
 
 .footer *::selection {
-  background-color: rgb(225, 113, 0, 0.3);
+  background-color: rgba(225, 113, 0, 0.3);
   color: #ffffff;
   color: var(--white);
 }
 
 .skills *::selection {
-  background-color: rgb(225, 113, 0, 0.3);
+  background-color: rgba(225, 113, 0, 0.3);
 }
 
 .gridWrapper *::selection {
-  background-color: rgb(50, 120, 120, 0.3);
+  background-color: rgba(50, 120, 120, 0.3);
 }
 
 a {

@@ -6,8 +6,8 @@
   background-color: white;
   background-color: var(--white);
   padding-bottom: 10rem;
-  padding-top: 14rem;
-  background-color: rgb(225, 113, 0, 0.05);
+  padding-top: 10rem;
+  background-color: rgba(225, 113, 0, 0.05);
 }
 
 .projects {
@@ -111,14 +111,14 @@
 }
 
 .repoAnchor {
-  border: 2px solid rgb(50, 120, 120, 1);
+  border: 2px solid rgb(50, 120, 120);
   color: white;
   background-color: rgb(50, 120, 120);
   background-color: var(--green);
 }
 
 .appAnchor {
-  border: 2px solid rgb(225, 113, 0, 1);
+  border: 2px solid rgb(225, 113, 0);
   color: white;
   background-color: #e17100;
   background-color: var(--orange);
@@ -159,9 +159,9 @@
 }
 
 .technologies > li {
-  color: rgb(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   padding: 0 1rem;
-  border-right: 1px solid rgb(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
   line-height: 1.5rem;
 }
 

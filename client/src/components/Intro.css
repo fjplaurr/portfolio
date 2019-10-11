@@ -31,19 +31,20 @@
 }
 
 .personalLogo {
-  height: auto;
+  min-height: 12rem;
   min-width: 12rem;
   margin-left: 3rem;
   animation: opac 4s, transl 4s;
 }
 
 .intro p {
-  font-size: 1.3rem;
   min-width: 12rem;
+  font-size: 1.3rem;
   text-align: left;
   line-height: 1.8rem;
-  color: rgb(255, 255, 255, 0.7);
-  max-width: 85%;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 40rem;
+  animation: opac 4s, transl 4s;
 }
 
 .introDescription {
@@ -87,6 +88,7 @@
   }
   
   .personalLogo {
+    min-height: 4rem;
     min-width: 4rem;
     margin-top: 0;
     margin-left: 0;

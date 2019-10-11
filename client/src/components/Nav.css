@@ -16,7 +16,7 @@
 }
 
 .anchorNav {
-  color: rgb(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .anchorNav {
@@ -33,6 +33,7 @@
 
 .logoNav img{
   height: 1.5rem;
+  width: 1.5rem;
 }
 
 @media only screen and (max-width: 767px) {
