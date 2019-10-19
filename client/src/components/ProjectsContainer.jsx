@@ -27,7 +27,7 @@ export default class ProjectsContainer extends React.Component {
             projectName="Drum Machine"
             projectDescription="App that allows the user to play a virtual drum machine using different sounds and voices."
             technoUsed={['React', 'Redux', 'Javascript', 'CSS Flexbox', 'CSS Grid Layout', 'HTML5']}
-            appLink="https://codepen.io/fjplaurr/full/GVQbQe"
+            appLink="https://drum-machine-app.herokuapp.com"
             repoLink="https://github.com/fjplaurr/drumMachine"
           />
           <Project
@@ -36,7 +36,7 @@ export default class ProjectsContainer extends React.Component {
             projectName="Markdown Previewer"
             projectDescription="App that allows the user to write Markdown language easily."
             technoUsed={['React', 'Javascript', 'CSS3', 'HTML5']}
-            appLink="https://codepen.io/fjplaurr/full/qzwxPy"
+            appLink="https://markdown-previewer-appl.herokuapp.com"
             repoLink="https://github.com/fjplaurr/reactMarkdownPreviewer"
           />
           <Project
@@ -45,7 +45,7 @@ export default class ProjectsContainer extends React.Component {
             projectName="Quote Machine"
             projectDescription="App that delivers quotes that can be shared in social media."
             technoUsed={['React', 'Javascript', 'CSS3', 'HTML5']}
-            appLink="https://codepen.io/fjplaurr/full/pmwQWz"
+            appLink="https://quote-machine-appl.herokuapp.com/"
             repoLink="https://github.com/fjplaurr/quoteMachine"
           />
         </div>

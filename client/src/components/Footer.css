@@ -5,7 +5,7 @@
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   background-color: rgb(35, 35, 45);
   background-color: var(--lightBlack);
 }
