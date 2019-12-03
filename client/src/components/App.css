@@ -9,8 +9,8 @@
 :root {
   --white: #ffffff;
   --green: rgb(50, 120, 120);
-  --lightBlack: rgb(35, 35, 45);
-  --black: rgb(20, 20, 20);
+  --lightBlack: #333333;
+  --black: rgb(34, 34, 34);
   --hoverButtons: rgba(0, 0, 0, 0.4);
   --orange: #e17100;
 }
@@ -44,7 +44,6 @@ h1,
 h2,
 h3 {
   margin: 0 auto;
-  font-family: "Adriane Text", sans-serif;
 }
 
 h1 {
@@ -60,7 +59,6 @@ h3 {
 h1,
 h2,
 h3 {
-  letter-spacing: 0.1rem;
 }
 
 .App {

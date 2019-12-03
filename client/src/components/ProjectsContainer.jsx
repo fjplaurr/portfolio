@@ -13,40 +13,22 @@ export default class ProjectsContainer extends React.Component {
         <h2>Projects</h2>
         <div className="projects">
           <Project
+            pngImg="flyFlowersImgPng"
+            gifImg=""
+            projectName="Fly-Flowers online shop"
+            projectDescription="Online shop made with React and Redux"
+            technoUsed={['React', 'Redux', 'Javascript', 'CSS', 'HTML', 'ESLint']}
+            appLink="https://flyflowers-shop.herokuapp.com"
+            repoLink="https://github.com/fjplaurr/flowersShop"
+          />
+          <Project
             pngImg="portfolioImgPng"
             gifImg="personalPortfolioGif"
             projectName="Personal Portfolio"
-            projectDescription="Current Website."
-            technoUsed={['React', 'Javascript', 'CSS Flexbox', 'CSS Grid Layout', 'HTML5', 'Node.js', 'MongoDB']}
+            projectDescription="Current Website"
+            technoUsed={['React', 'Javascript', 'CSS', 'HTML', 'Node.js', 'MongoDB']}
             appLink=""
             repoLink="https://github.com/fjplaurr/personal-portfolio"
-          />
-          <Project
-            pngImg="drumMachineImgPng"
-            gifImg="drumMachineImgGif"
-            projectName="Drum Machine"
-            projectDescription="App that allows the user to play a virtual drum machine using different sounds and voices."
-            technoUsed={['React', 'Redux', 'Javascript', 'CSS Flexbox', 'CSS Grid Layout', 'HTML5']}
-            appLink="https://drum-machine-app.herokuapp.com"
-            repoLink="https://github.com/fjplaurr/drumMachine"
-          />
-          <Project
-            pngImg="markdownPreviewerPng"
-            gifImg="markdownPreviewerGif"
-            projectName="Markdown Previewer"
-            projectDescription="App that allows the user to write Markdown language easily."
-            technoUsed={['React', 'Javascript', 'CSS3', 'HTML5']}
-            appLink="https://markdown-previewer-appl.herokuapp.com"
-            repoLink="https://github.com/fjplaurr/reactMarkdownPreviewer"
-          />
-          <Project
-            pngImg="quoteMachineImgPng"
-            gifImg="quoteMachineImgGif"
-            projectName="Quote Machine"
-            projectDescription="App that delivers quotes that can be shared in social media."
-            technoUsed={['React', 'Javascript', 'CSS3', 'HTML5']}
-            appLink="https://quote-machine-appl.herokuapp.com/"
-            repoLink="https://github.com/fjplaurr/quoteMachine"
           />
         </div>
       </div>

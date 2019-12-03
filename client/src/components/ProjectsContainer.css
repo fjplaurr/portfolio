@@ -7,7 +7,7 @@
   background-color: var(--white);
   padding-bottom: 7rem;
   padding-top: 7rem;
-  background-color: rgba(225, 113, 0, 0.05);
+  background-color: rgb(250, 250, 250);
 }
 
 .projects {
@@ -36,10 +36,15 @@
   border-radius: 5px;
   display: flex;
   flex-direction: row;
-  padding: 3rem 0;
   width: 100%;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 3rem;
+}
+
+.projects article:first-child{
+  padding-top: 0;
+  margin-bottom: 1rem;
 }
 
 .projects article .image {
@@ -60,13 +65,12 @@
 .projectInfo > * {
   line-height: 2.5rem;
   text-align: left;
-  color: rgb(20,20,20);
+  color: rgb(20, 20, 20);
   color: var(--black);
 }
 
 .projectInfo h3 {
   margin: 0;
-  margin-bottom: 1rem;
 }
 
 .projectInfo p {
@@ -88,13 +92,12 @@
 }
 
 .gridWrapper h2 {
-  padding: 2rem 0 3rem 0;
-  color: rgb(20,20,20);
+  color: rgb(20, 20, 20);
   color: var(--black);
 }
 
 .gridWrapper h3 {
-  color: rgb(20,20,20);
+  color: rgb(20, 20, 20);
   color: var(--black);
 }
 
@@ -177,20 +180,12 @@
   padding-right: 0;
 }
 
-.drumMachineImgPng {
-  background-image: url("../../images/drumMachine1.png");
-}
-
-.markdownPreviewerPng {
-  background-image: url("../../images/markdownPreviewer1.png");
-}
-
-.quoteMachineImgPng {
-  background-image: url("../../images/quoteMachine1.png");
-}
-
 .portfolioImgPng {
   background-image: url("../../images/personalPortfolio.png");
+}
+
+.flyFlowersImgPng {
+  background-image: url("../../images/flyFlowers.png");
 }
 
 .imageGif {
@@ -214,11 +209,10 @@
   }
 
   .projectInfo h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .projectInfo > * {
-    font-size: 1rem;
     line-height: 1.5rem;
   }
 
@@ -226,6 +220,8 @@
     text-align: center;
     margin-top: 0.6rem;
     margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #333333;
   }
 
   .projects article {
@@ -239,6 +235,7 @@
 
   .technologies > li {
     padding: 0 0.7rem;
+    font-size: 0.9rem;
   }
 
   .appRepoButtons > li > a {

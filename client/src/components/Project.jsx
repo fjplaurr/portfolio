@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 
 function handleHover(e) {
   const classN = e.target.className;
+  /*
   if (classN.indexOf('drumMachineImgGif') !== -1) { e.target.style.backgroundImage = `url("https://res.cloudinary.com/fjplaurr/image/upload/v1568989863/Web%20Development/Images/Portfolio/Drum%20Machine/drumMachineProd.gif?p${new Date().getTime()}")`; }
   if (classN.indexOf('quoteMachineImgGif') !== -1) { e.target.style.backgroundImage = `url("https://res.cloudinary.com/fjplaurr/image/upload/v1568990523/Web%20Development/Images/Portfolio/Random%20Quote%20Machine/quoteMachineProd_oycuwz.gif?p${new Date().getTime()}")`; }
   if (classN.indexOf('markdownPreviewerGif') !== -1) { e.target.style.backgroundImage = `url("https://res.cloudinary.com/fjplaurr/image/upload/v1568997796/Web%20Development/Images/Portfolio/Mardown%20Previewer/markdownPreviewerProd_whwafa.gif?p${new Date().getTime()}")`; }
   if (classN.indexOf('personalPortfolioGif') !== -1) { e.target.style.backgroundImage = `url("https://res.cloudinary.com/fjplaurr/image/upload/v1569061401/Web%20Development/Images/Portfolio/Personal%20Portfolio/personalPortfolioGif_racnqc.gif?p${new Date().getTime()}")`; }
+  */
 }
 
 function handleOut(e) {

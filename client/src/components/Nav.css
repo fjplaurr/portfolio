@@ -26,9 +26,8 @@
 }
 
 .anchorNav:hover {
-  color: #e17100;
-  color: var(--orange);
-  transition: 0.2s ease-in-out;
+  color: white;
+  transition: 0.1s ease-in-out;
 }
 
 .logoNav img{
