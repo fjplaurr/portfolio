@@ -4,7 +4,9 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv').config();
 const path = require('path');
+const wakeUpDyno = require('./wokeDyno.js'); // my module!
 
+const DYNO_URL = 'https://fjplaurr-portfolio.herokuapp.com'; // the url of your dyno
 const port = process.env.PORT || 5000; // Heroku Step 1 -> process.env.PORT
 const uriAtlas = process.env.ATLAS_URI; // If not defined in .env, it will take it from enviorment
 
@@ -36,5 +38,5 @@ app.get('*', (req, res) => {
 
 // Server listening
 app.listen(port, () => {
-  console.log(`Server running on port: ${port}`);
+  wakeUpDyno(DYNO_URL); // will start once server starts
 });
