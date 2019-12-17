@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv').config();
 const path = require('path');
-const wakeUpDyno = require('./wokeDyno.js'); // my module!
+const wakeUpDyno = require('./wakeUpDyno');
 
 const DYNO_URL = 'https://fjplaurr-portfolio.herokuapp.com'; // the url of your dyno
 const port = process.env.PORT || 5000; // Heroku Step 1 -> process.env.PORT
