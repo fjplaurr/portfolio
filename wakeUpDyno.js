@@ -1,9 +1,9 @@
-const fetch = require('node-fetch');
+const http = require('http');
 
-const wakeUpDyno = (url, interval = 28) => {
+const wakeUpDyno = (url, interval = 25) => {
   const milliseconds = interval * 60000;
-  setTimeout(() => {
-    fetch(url).then((res) => console.log(`Fetching ${res}.`));
+  setInterval(() => {
+    http.get(url);
   }, milliseconds);
 };
 
