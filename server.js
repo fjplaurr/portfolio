@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000; // Heroku Step 1 -> process.env.PORT
 const uriAtlas = process.env.ATLAS_URI; // If not defined in .env, it will take it from enviorment
 
 // Mongoose connection
-mongoose.connect(uriAtlas, { useNewUrlParser: true }); // Heroku Step 2 -> connect to MongoDB
+mongoose.connect(uriAtlas, { useNewUrlParser: true, useUnifiedTopology: true }); // Heroku Step 2 -> connect to MongoDB
 const { connection } = mongoose;
 connection.on('error', console.error.bind(console, 'connection error:'));
 connection.once('open', () => {
