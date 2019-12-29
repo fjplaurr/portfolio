@@ -23,7 +23,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Routers
+//  Routers
 const messagesRouter = require('./routes/messages');
 
 app.use('/', messagesRouter);
