@@ -47,7 +47,7 @@ h3 {
 }
 
 h1 {
-  font-size: 3.4rem;
+  font-size: 3.8rem;
 }
 h2 {
   font-size: 2.6rem;
@@ -106,18 +106,4 @@ a {
 
 p {
   text-align: justify;
-}
-
-@font-face {
-  font-family: "Adriane Text";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../../fonts/AdrianeTextRegular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Adriane Text Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../../fonts/AdrianeTextBold.woff") format("woff");
 }

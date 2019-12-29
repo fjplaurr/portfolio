@@ -31,10 +31,10 @@
 }
 
 .personalLogo {
-  min-height: 12rem;
-  min-width: 12rem;
+  min-height: 9rem;
+  min-width: 9rem;
   margin-left: 3rem;
-  animation: opac 4s, transl 4s;
+  animation: opac 3s, transl 3s;
 }
 
 .intro p {
@@ -44,11 +44,11 @@
   line-height: 1.8rem;
   color: rgba(255, 255, 255, 0.7);
   max-width: 40rem;
-  animation: opac 4s, transl 4s;
+  animation: opac 3s, transl 3s;
 }
 
 .introDescription {
-  max-width: 40%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -58,8 +58,7 @@
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   text-align: left;
-  font-family: "Adriane Text", serif;
-  animation: opac 4s, transl 4s;
+  animation: opac 3s, transl 3s;
 }
 
 @keyframes opac {
@@ -88,8 +87,8 @@
   }
   
   .personalLogo {
-    min-height: 4rem;
-    min-width: 4rem;
+    min-height: 3rem;
+    min-width: 3rem;
     margin-top: 0;
     margin-left: 0;
   }
