@@ -66,7 +66,7 @@
   line-height: 2.5rem;
   text-align: left;
   color: rgb(20, 20, 20);
-  color: var(--black);
+  color: var(--lightblack);
 }
 
 .projectInfo h3 {
@@ -93,12 +93,12 @@
 
 .gridWrapper h2 {
   color: rgb(20, 20, 20);
-  color: var(--black);
+  color: var(--lightblack;
 }
 
 .gridWrapper h3 {
   color: rgb(20, 20, 20);
-  color: var(--black);
+  color: var(--lightblack);
 }
 
 .appRepoButtons > li > a {
