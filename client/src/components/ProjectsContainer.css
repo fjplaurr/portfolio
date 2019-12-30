@@ -7,7 +7,7 @@
   background-color: var(--white);
   padding-bottom: 7rem;
   padding-top: 7rem;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(240, 240, 240);
 }
 
 .projects {
@@ -60,13 +60,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color: #333333;
 }
 
 .projectInfo > * {
   line-height: 2.5rem;
   text-align: left;
-  color: rgb(20, 20, 20);
-  color: var(--lightblack);
 }
 
 .projectInfo h3 {
@@ -92,13 +91,11 @@
 }
 
 .gridWrapper h2 {
-  color: rgb(20, 20, 20);
-  color: var(--lightblack);
+  color: #333333;
 }
 
 .gridWrapper h3 {
-  color: rgb(20, 20, 20);
-  color: var(--lightblack);
+  color: #333333;
 }
 
 .appRepoButtons > li > a {

@@ -11,6 +11,8 @@ import javaLogo from '../../images/javaLogo.svg';
 import gitLogo from '../../images/gitLogo.svg';
 import githubLogo from '../../images/githubLogo.svg';
 import herokuLogo from '../../images/herokuLogo.svg';
+import reduxLogo from '../../images/reduxLogo.svg';
+import eslintLogo from '../../images/eslintLogo.svg';
 
 export default function Skills() {
   function createSkill(link, logo, alt, label) {
@@ -23,7 +25,9 @@ export default function Skills() {
   const css = createSkill('https://developer.mozilla.org/docs/Archive/CSS3', CSS3Logo, 'CSS logo', 'CSS3');
   const javascript = createSkill('https://developer.mozilla.org/docs/Web/JavaScript', javascriptLogo, 'Javascript logo', 'Javascript');
   const react = createSkill('https://reactjs.org', reactLogo, 'ReactJS logo', 'React.js');
-  const frontSkills = [html, css, javascript, react];
+  const redux = createSkill('https://redux.js.org', reduxLogo, 'Redux logo', 'Redux.js');
+  const eslint = createSkill('https://eslint.org', eslintLogo, 'ESLint logo', 'ESLint');
+  const frontSkills = [html, css, javascript, react, redux, eslint];
   const node = createSkill('https://nodejs.org', nodejsLogo, 'Nodejs logo', 'Node.js');
   const mongodb = createSkill('https://www.mongodb.com', mongodbLogo, 'MongoDB logo', 'MongoDB');
   const firebase = createSkill('https://firebase.google.com', firebaseLogo, 'Firebase logo', 'Firebase');
