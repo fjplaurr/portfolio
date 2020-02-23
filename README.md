@@ -9,7 +9,7 @@ There are several ways to run the App. The easiest one is to check this link: (h
 If you would rather run this App in your own computer, then follow the steps below:
 - Download the project from (https://github.com/fjplaurr/personalPortfolio) by pressing the green button "Clone or download".
 - Unzip the file downloaded.
-- Open a Command Line Interface and go to the root file of the project (It is called reactMarkdownPreviewer).
+- Open a Command Line Interface and go to the root file of the project (It is called personalPortfolio).
 - Type in the Command Line Interface: 'npm install'. An error will occur if you do not have npm installed in your machine. You can donwload it from here (https://nodejs.org/es/download/).
 - Wait for the installation to finish.
 - When finished, type in the Command Line Interface: 'npm start'.
