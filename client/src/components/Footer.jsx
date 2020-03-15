@@ -1,5 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
+import axios from 'axios';
 
 export default class Footer extends React.Component {
   constructor(props) {
@@ -15,13 +16,22 @@ export default class Footer extends React.Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onSubmit(e) {
+  async onSubmit(e) {
     e.preventDefault();
-    this.setState({
-      name: '',
-      email: '',
-      message: 'Message correctly sent! I will answer you as soon as possible.',
-    });
+    const res = await axios.post('http://localhost:5000/add', this.state);
+    if (res.status === 200) {
+      this.setState({
+        name: '',
+        email: '',
+        message: 'Message correctly sent! I will answer you as soon as possible.',
+      });
+    } else {
+      this.setState({
+        name: '',
+        email: '',
+        message: 'There was an error and the message could not be sent.',
+      });
+    }
   }
 
   onChangeName(e) {
@@ -69,7 +79,7 @@ export default class Footer extends React.Component {
               </label>
             </div>
           </div>
-          <input type="submit" value="Send"/>
+          <input type="submit" value="Send" />
         </form>
         <ul className="contact">
           <li>
