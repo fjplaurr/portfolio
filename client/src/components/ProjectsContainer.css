@@ -42,7 +42,7 @@
   margin-top: 3rem;
 }
 
-.projects article:first-child{
+.projects article:first-child {
   padding-top: 0;
   margin-bottom: 1rem;
 }
@@ -54,26 +54,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
-}
-
-.projects article .projectInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: #333333;
-}
-
-.projectInfo > * {
-  line-height: 2.5rem;
-  text-align: left;
-}
-
-.projectInfo h3 {
-  margin: 0;
-}
-
-.projectInfo p {
-  font-size: 1.2rem;
 }
 
 .projectsContainer > * {
@@ -185,13 +165,6 @@
   background-image: url("../../images/flyFlowers.png");
 }
 
-.imageGif {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
 /*Mobile Phones*/
 @media only screen and (max-width: 767px) {
   .projects article .image {
@@ -205,28 +178,8 @@
     padding-bottom: 0;
   }
 
-  .projectInfo h3 {
-    font-size: 1.1rem;
-  }
-
-  .projectInfo > * {
-    line-height: 1.5rem;
-  }
-
-  .projectInfo > p {
-    text-align: center;
-    margin-top: 0.6rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    color: #333333;
-  }
-
   .projects article {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .projects article .projectInfo {
     align-items: center;
   }
 
@@ -265,14 +218,6 @@
 
   .projects article .image {
     align-self: center;
-  }
-
-  .projectInfo > p {
-    text-align: center;
-  }
-
-  .projects article .projectInfo {
-    align-items: center;
   }
 
   .projects article {

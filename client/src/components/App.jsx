@@ -1,16 +1,10 @@
 import React from 'react';
-import './ProjectsContainer.css';
-import './Footer.css';
 import './App.css';
-import './Nav.css';
-import './Intro.css';
-import './Skills.css';
 import Intro from './Intro';
 import ProjectsContainer from './ProjectsContainer';
-import Skills from './Skills';
+import Skills from './SkillsContainer';
 import Footer from './Footer';
 import Nav from './Nav';
-
 
 const App = () => (
   <div className="App">
@@ -23,6 +17,5 @@ const App = () => (
     </div>
   </div>
 );
-
 
 export default App;

@@ -1,6 +1,7 @@
 import React from 'react';
+import './Nav.css';
 
-export default function Nav() {
+function Nav() {
   return (
     <div className="navDiv" id="nav">
       <nav>
@@ -13,3 +14,5 @@ export default function Nav() {
     </div>
   );
 }
+
+export default Nav;

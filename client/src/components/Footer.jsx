@@ -1,8 +1,9 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import axios from 'axios';
+import './Footer.css';
 
-export default class Footer extends React.Component {
+class Footer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,7 +19,7 @@ export default class Footer extends React.Component {
 
   async onSubmit(e) {
     e.preventDefault();
-    const res = await axios.post('http://localhost:5000/add', this.state);
+    const res = await axios.post('/add', this.state);
     if (res.status === 200) {
       this.setState({
         name: '',
@@ -63,7 +64,7 @@ export default class Footer extends React.Component {
             <div className="nameDiv">
               <label htmlFor="name">
                 Name:
-                <input id="name" onChange={this.onChangeName} value={name} type="text" />
+                <input id="name" required onChange={this.onChangeName} value={name} type="text" />
               </label>
             </div>
             <div className="emailDiv">
@@ -105,3 +106,5 @@ export default class Footer extends React.Component {
     );
   }
 }
+
+export default Footer;

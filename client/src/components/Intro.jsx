@@ -1,6 +1,6 @@
 import React from 'react';
 import personalLogo from '../../images/personalLogo.svg';
-
+import './Intro.css';
 
 export default function intro() {
   return (
@@ -19,8 +19,10 @@ export default function intro() {
             web developer.
           </h1>
         </div>
-        {/* eslint-disable-next-line max-len */}
-        <p>I make useful products that provide a sweet user experience following three principles: simplicity, responsive design and attention to detail.</p> 
+        <p>
+          I make useful products that provide a nice user experience following
+          three principles: simplicity, responsive design and attention to detail.
+        </p>
       </div>
       <img src={personalLogo} className="personalLogo" alt="Personal logo from Francisco Plaza" />
     </div>

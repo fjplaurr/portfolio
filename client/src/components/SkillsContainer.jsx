@@ -1,4 +1,6 @@
 import React from 'react';
+import Skill from './Skill';
+import './SkillsContainer.css';
 import nodejsLogo from '../../images/nodejsLogo.svg';
 import HTML5Logo from '../../images/HTML5Logo.svg';
 import CSS3Logo from '../../images/CSS3Logo.svg';
@@ -14,13 +16,14 @@ import herokuLogo from '../../images/herokuLogo.svg';
 import reduxLogo from '../../images/reduxLogo.svg';
 import eslintLogo from '../../images/eslintLogo.svg';
 
-export default function Skills() {
-  function createSkill(link, logo, alt, label) {
-    const obj = {
-      link, logo, alt, label,
-    };
-    return obj;
-  }
+function createSkill(link, logo, alt, label) {
+  const obj = {
+    link, logo, alt, label,
+  };
+  return obj;
+}
+
+function SkillsContainer() {
   const html = createSkill('https://developer.mozilla.org/docs/HTML/HTML5', HTML5Logo, 'HTML logo', 'HTML5');
   const css = createSkill('https://developer.mozilla.org/docs/Archive/CSS3', CSS3Logo, 'CSS logo', 'CSS3');
   const javascript = createSkill('https://developer.mozilla.org/docs/Web/JavaScript', javascriptLogo, 'Javascript logo', 'Javascript');
@@ -41,42 +44,21 @@ export default function Skills() {
   const frontSkillsContent = (
     <ul className="logoList">
       {frontSkills.map((x, index) => (
-        <li key={x[index]}>
-          <div>
-            <a href={x.link} target="_blank" rel="noopener noreferrer">
-              <img src={x.logo} alt={x.alt} />
-              <p>{x.label}</p>
-            </a>
-          </div>
-        </li>
+        <li key={x.label}><Skill index={index} link={x.link} logo={x.logo} alt={x.alt} label={x.label} /></li>
       ))}
     </ul>
   );
   const backSkillsContent = (
     <ul className="logoList">
       {backSkills.map((x, index) => (
-        <li key={x[index]}>
-          <div>
-            <a href={x.link} target="_blank" rel="noopener noreferrer">
-              <img src={x.logo} alt={x.alt} />
-              <p>{x.label}</p>
-            </a>
-          </div>
-        </li>
+        <li key={x.label}><Skill index={index} link={x.link} logo={x.logo} alt={x.alt} label={x.label} /></li>
       ))}
     </ul>
   );
   const otherSkillsContent = (
     <ul className="logoList">
       {otherTechnoSkills.map((x, index) => (
-        <li key={x[index]}>
-          <div>
-            <a href={x.link} target="_blank" rel="noopener noreferrer">
-              <img src={x.logo} alt={x.alt} />
-              <p>{x.label}</p>
-            </a>
-          </div>
-        </li>
+        <li key={x.label}><Skill index={index} link={x.link} logo={x.logo} alt={x.alt} label={x.label} /></li>
       ))}
     </ul>
   );
@@ -100,3 +82,5 @@ export default function Skills() {
     </div>
   );
 }
+
+export default SkillsContainer;

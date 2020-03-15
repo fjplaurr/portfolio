@@ -21,6 +21,8 @@ module.exports = {
     'react',
   ],
   rules: {
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "jsx-a11y/anchor-has-content": "off",
+    "object-curly-newline": "off",
   },
 };
