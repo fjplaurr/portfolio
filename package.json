@@ -1,35 +1,19 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "Personal portfolio backend",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "personal-portfolio",
+  "version": "0.1.0",
+  "description": "Personal portfolio frontend",
+  "private": true,
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.1.0",
-    "eslint": "^5.16.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.6.10"
+    "@fortawesome/fontawesome-free": "^5.10.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "0.9.5"
   },
-  "engines": {
-    "node": "10.16.3",
-    "npm": "6.10.3"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-react-app": "^5.0.2",
-    "eslint-plugin-flowtype": "^3.13.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

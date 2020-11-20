@@ -1,6 +1,5 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
-import axios from 'axios';
 import './Footer.css';
 
 class Footer extends React.Component {
@@ -19,20 +18,20 @@ class Footer extends React.Component {
 
   async onSubmit(e) {
     e.preventDefault();
-    const res = await axios.post('/add', this.state);
-    if (res.status === 200) {
-      this.setState({
-        name: '',
-        email: '',
-        message: 'Message correctly sent! I will answer you as soon as possible.',
-      });
-    } else {
+    // const res = await axios.post('/add', this.state);
+    // if (res.status === 200) {
+    //   this.setState({
+    //     name: '',
+    //     email: '',
+    //     message: 'Message correctly sent! I will answer you as soon as possible.',
+    //   });
+    // } else {
       this.setState({
         name: '',
         email: '',
         message: 'There was an error and the message could not be sent.',
       });
-    }
+    // }
   }
 
   onChangeName(e) {
